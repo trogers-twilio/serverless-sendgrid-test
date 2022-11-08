@@ -1,0 +1,22 @@
+{
+  "name": "serverless-sendgrid-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "@twilio/runtime-handler": "1.2.5",
+    "node-fetch": "^2.6.7",
+    "twilio": "^3.83.1"
+  },
+  "devDependencies": {
+    "twilio-run": "^3.4.5"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
